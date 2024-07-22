@@ -4,7 +4,7 @@ En este fichero se establecera la conexion con la base de datos para poder opera
 import pandas as pd
 import cx_Oracle
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 def creacion_datos_acuerdo(cursor):
     
     dataframe=pd.read_csv("./data/ejemploAcuerdos1.csv",encoding="ISO-8859-1",sep=";")
