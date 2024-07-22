@@ -1,0 +1,5 @@
+TTI;Tipo de Interes;Tipo de interes deudor;Saldo de capital inicial;Metodo de amortizacion;Fecha de pago de ultima cuota;Fecha de constitucion;Fecha de vencimiento;Fecha de ultima renovacion;Frecuencia de proxima revision;Frecuencia de revision;Frecuencia de pago;Unidad Frecuencia Pago;Valor residual;Base de calculo;Duracion;Tasa de interes;Tasa cliente;Saldo pendiente por amortizar;Spread Curva de referencia;Curva del eurivor
+1.25;Fijo;2.45;49500;cuota constante;07-05-2024;07-09-2021;05-09-2046;07-03-2024;07-07-2024;;1;M;0;1;300M;2.45;2.45;46305.50364;0.5;123
+1.25;variable;3.4;49500;cuota constante;07-05-2024;07-09-2021;05-09-2046;07-03-2024;07-07-2024;;1;M;0;1;300M;2;2.45;46226.31908;0.5;121
+2.9139;fijo;3;10000;principal constante;01-05-2024;07-09-2021;25-11-2024;07-12-2023;07-02-2024;3 meses;1;M;0;1;300M;3;3.6830;10000;0.5;123
+1.25;variable;2.45;10000;bullet/ballon;15-05-2024;07-09-2021;25-11-2027;07-12-2023;07-01-2024;3 meses;1;M;0;1;300M;3;2.1;10000;0.5;123

@@ -1,0 +1,37 @@
+.st-emotion-cache-1kyxreq{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para ver el logo claramente */
+    z-index: 1000;
+
+}
+
+div.st-emotion-cache-1kyxreq{
+    width: 100px;
+}
+
+.st-emotion-cache-asc41u h1{
+    position: fixed;
+    top: 8%;
+    /* left: 42%; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+}
+
+.st-emotion-cache-1gv3huu{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Deshabilita el scroll en la página */
+}
