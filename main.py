@@ -41,7 +41,7 @@ DATE_COLUMN = 'tti'
 DATA_URL = ('https://localhost:8080/streamlit/Principal')
 
 # Cargar la imagen
-image_fondo = Image.open('image2.jpg')
+image_fondo = Image.open('./image2.jpg')
 
 page_bg_img = '''
 <style>
@@ -54,7 +54,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-add_bg_from_local('Image2.jpg')
+add_bg_from_local('./Image2.jpg')
 
 # URL de la imagen
 image_url="./Image.jpg"
