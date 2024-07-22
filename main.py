@@ -81,7 +81,7 @@ if tipo_de_interes=="Fijo":
     fecha_de_pago_de_ultima_cuota = st.sidebar.date_input('fecha de pago de ultima cuota')                             
     fecha_de_vencimiento = st.sidebar.date_input('fecha de vencimiento')                                    
     frecuencia_de_pago = st.sidebar.number_input('frecuencia de pago', min_value=0, step=1,value=1)  #a                                      
-    unidad_frecuencia_pago = st.sidebar.text_input('unidad frecuencia pago',value="M")                                    
+    # unidad_frecuencia_pago = st.sidebar.text_input('unidad frecuencia pago',value="M")                                    
   
 
 elif tipo_de_interes=="Variable":
@@ -95,7 +95,7 @@ elif tipo_de_interes=="Variable":
     fecha_de_pago_de_ultima_cuota = st.sidebar.date_input('fecha de pago de ultima cuota')                             
     fecha_de_vencimiento = st.sidebar.date_input('fecha de vencimiento')                                    
     frecuencia_de_pago = st.sidebar.number_input('frecuencia de pago', min_value=0, step=1,value=1)  #a                                      
-    unidad_frecuencia_pago = st.sidebar.text_input('unidad frecuencia pago',value="M")                                    
+    # unidad_frecuencia_pago = st.sidebar.text_input('unidad frecuencia pago',value="M")                                    
     fecha_de_ultima_renovacion = st.sidebar.date_input('fecha de ultima renovacion', key='fecha_renovacion')                                
     frecuencia_de_proxima_revision = st.sidebar.date_input('frecuencia de proxima revision')                            
     spread_curva_de_referencia = st.sidebar.number_input('spread de curva de referencia',value=dataframe['Spread Curva de referencia'][0])                                                                           
@@ -113,7 +113,7 @@ elif tipo_de_interes=="Mixto":
     fecha_de_pago_de_ultima_cuota = st.sidebar.date_input('fecha de pago de ultima cuota')                             
     fecha_de_vencimiento = st.sidebar.date_input('fecha de vencimiento')                                    
     frecuencia_de_pago = st.sidebar.number_input('frecuencia de pago', min_value=0, step=1,value=1)  #a                                      
-    unidad_frecuencia_pago = st.sidebar.text_input('unidad frecuencia pago',value="M")                                    
+    # unidad_frecuencia_pago = st.sidebar.text_input('unidad frecuencia pago',value="M")                                    
     fecha_de_ultima_renovacion = st.sidebar.date_input('fecha de ultima renovacion', key='fecha_renovacion')                                
     frecuencia_de_proxima_revision = st.sidebar.date_input('frecuencia de proxima revision')                            
     spread_curva_de_referencia = st.sidebar.number_input('spread de curva de referencia',value=dataframe['Spread Curva de referencia'][0])                                                                           
@@ -159,7 +159,7 @@ else:
 
 if curva_euribor==None:
     curva_euribor=111
-
+unidad_frecuencia_pago="M"
 nueva_fila = {
                     "tti":tti,
                     "saldo_pendiente":float(saldo_pendiente),  # type: ignore
