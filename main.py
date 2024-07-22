@@ -54,7 +54,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-add_bg_from_local('./Image2.jpg')
+add_bg_from_local('./image2.jpg')
 
 # URL de la imagen
 image_url="./Image.jpg"
